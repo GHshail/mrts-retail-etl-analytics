@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+config/database.yaml
+.env
+
+# Source and generated datasets
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Runtime output
+logs/*
+!logs/.gitkeep
+output/charts/*
+!output/charts/.gitkeep
+
+# Notebook checkpoints and IDE files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
