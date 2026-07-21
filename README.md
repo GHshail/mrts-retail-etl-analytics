@@ -2,6 +2,16 @@
 
 A production-style data engineering portfolio project that extracts the U.S. Census Bureau Monthly Retail Trade Survey (MRTS) workbook, transforms its yearly worksheets into a canonical monthly dataset, loads the result into MySQL through a staging layer, validates the load, and produces reusable trend, percentage-change, and rolling-window analyses.
 
+## Project Architecture
+
+<p align="center">
+  <img
+    src="assets/architecture/mrts_architecture.png"
+    alt="MRTS Retail Sales ETL Pipeline Architecture"
+    width="100%"
+  >
+</p>
+
 ## Architecture
 
 ```text
