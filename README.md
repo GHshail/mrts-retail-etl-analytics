@@ -6,7 +6,7 @@ A production-style data engineering portfolio project that extracts the U.S. Cen
 
 <p align="center">
   <img
-    src="assets/architecture/mrts_architecture.png"
+    src="assets/architecture/mrts_retail_etl_analytics_architecture.png"
     alt="MRTS Retail Sales ETL Pipeline Architecture"
     width="100%"
   >
